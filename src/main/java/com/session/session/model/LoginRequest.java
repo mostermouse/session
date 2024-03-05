@@ -12,7 +12,7 @@ import lombok.*;
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class LoginRequest {
     private String id;
-    private String passwrod;
+    private String password;
 
 
 }

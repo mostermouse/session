@@ -18,7 +18,7 @@ public class UserService {
             HttpSession httpSession
     ) {
         var id = loginRequest.getId();
-        var pw = loginRequest.getPasswrod();
+        var pw = loginRequest.getPassword();
 
         var optionalUser = userRepository.findByName(id);
         if (optionalUser.isPresent()) {
